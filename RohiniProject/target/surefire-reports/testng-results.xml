@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="129329" started-at="2017-10-22T15:40:27Z" finished-at="2017-10-22T15:42:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="129329" started-at="2017-10-22T15:40:27Z" finished-at="2017-10-22T15:42:36Z">
+      <class name="tests.FindStoreTest">
+        <test-method status="PASS" signature="suiteLevelSetup()[pri:0, instance:tests.FindStoreTest@62043840]" name="suiteLevelSetup" is-config="true" duration-ms="215" started-at="2017-10-22T21:10:27Z" finished-at="2017-10-22T21:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteLevelSetup -->
+        <test-method status="PASS" signature="intiateTest(java.lang.reflect.Method)[pri:0, instance:tests.FindStoreTest@62043840]" name="intiateTest" is-config="true" duration-ms="5171" started-at="2017-10-22T21:10:27Z" finished-at="2017-10-22T21:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FindStoreTest.findStore(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateTest -->
+        <test-method status="PASS" signature="findStore(java.lang.String)[pri:0, instance:tests.FindStoreTest@62043840]" name="findStore" duration-ms="16425" started-at="2017-10-22T21:10:32Z" data-provider="postCodeData" finished-at="2017-10-22T21:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EC1A 1BB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+        <test-method status="PASS" signature="methodEnd(org.testng.ITestResult)[pri:0, instance:tests.FindStoreTest@62043840]" name="methodEnd" is-config="true" duration-ms="1222" started-at="2017-10-22T21:10:48Z" finished-at="2017-10-22T21:10:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findStore status=SUCCESS method=FindStoreTest.findStore(java.lang.String)[pri:0, instance:tests.FindStoreTest@62043840] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEnd -->
+        <test-method status="PASS" signature="intiateTest(java.lang.reflect.Method)[pri:0, instance:tests.FindStoreTest@62043840]" name="intiateTest" is-config="true" duration-ms="4319" started-at="2017-10-22T21:10:50Z" finished-at="2017-10-22T21:10:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FindStoreTest.findStore(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateTest -->
+        <test-method status="PASS" signature="findStore(java.lang.String)[pri:0, instance:tests.FindStoreTest@62043840]" name="findStore" duration-ms="16637" started-at="2017-10-22T21:10:54Z" data-provider="postCodeData" finished-at="2017-10-22T21:11:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[W1A 0AX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+        <test-method status="PASS" signature="methodEnd(org.testng.ITestResult)[pri:0, instance:tests.FindStoreTest@62043840]" name="methodEnd" is-config="true" duration-ms="944" started-at="2017-10-22T21:11:11Z" finished-at="2017-10-22T21:11:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findStore status=SUCCESS method=FindStoreTest.findStore(java.lang.String)[pri:0, instance:tests.FindStoreTest@62043840] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEnd -->
+        <test-method status="PASS" signature="intiateTest(java.lang.reflect.Method)[pri:0, instance:tests.FindStoreTest@62043840]" name="intiateTest" is-config="true" duration-ms="4350" started-at="2017-10-22T21:11:11Z" finished-at="2017-10-22T21:11:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FindStoreTest.findStore(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateTest -->
+        <test-method status="PASS" signature="findStore(java.lang.String)[pri:0, instance:tests.FindStoreTest@62043840]" name="findStore" duration-ms="15158" started-at="2017-10-22T21:11:16Z" data-provider="postCodeData" finished-at="2017-10-22T21:11:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DN55 1PT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+        <test-method status="PASS" signature="methodEnd(org.testng.ITestResult)[pri:0, instance:tests.FindStoreTest@62043840]" name="methodEnd" is-config="true" duration-ms="873" started-at="2017-10-22T21:11:31Z" finished-at="2017-10-22T21:11:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findStore status=SUCCESS method=FindStoreTest.findStore(java.lang.String)[pri:0, instance:tests.FindStoreTest@62043840] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEnd -->
+        <test-method status="PASS" signature="endSuiteLevelSetup()[pri:0, instance:tests.FindStoreTest@62043840]" name="endSuiteLevelSetup" is-config="true" duration-ms="39" started-at="2017-10-22T21:12:36Z" finished-at="2017-10-22T21:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuiteLevelSetup -->
+      </class> <!-- tests.FindStoreTest -->
+      <class name="tests.BuyCurrencyTest">
+        <test-method status="PASS" signature="intiateTest(java.lang.reflect.Method)[pri:0, instance:tests.BuyCurrencyTest@5315b42e]" name="intiateTest" is-config="true" duration-ms="4307" started-at="2017-10-22T21:11:32Z" finished-at="2017-10-22T21:11:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BuyCurrencyTest.findStore(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateTest -->
+        <test-method status="PASS" signature="findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@5315b42e]" name="findStore" duration-ms="16381" started-at="2017-10-22T21:11:36Z" data-provider="postCodeData" finished-at="2017-10-22T21:11:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EC1A 1BB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+        <test-method status="PASS" signature="methodEnd(org.testng.ITestResult)[pri:0, instance:tests.BuyCurrencyTest@5315b42e]" name="methodEnd" is-config="true" duration-ms="852" started-at="2017-10-22T21:11:53Z" finished-at="2017-10-22T21:11:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findStore status=SUCCESS method=BuyCurrencyTest.findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@5315b42e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEnd -->
+        <test-method status="PASS" signature="intiateTest(java.lang.reflect.Method)[pri:0, instance:tests.BuyCurrencyTest@5315b42e]" name="intiateTest" is-config="true" duration-ms="4412" started-at="2017-10-22T21:11:53Z" finished-at="2017-10-22T21:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BuyCurrencyTest.findStore(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateTest -->
+        <test-method status="PASS" signature="findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@5315b42e]" name="findStore" duration-ms="16383" started-at="2017-10-22T21:11:58Z" data-provider="postCodeData" finished-at="2017-10-22T21:12:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[W1A 0AX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+        <test-method status="PASS" signature="methodEnd(org.testng.ITestResult)[pri:0, instance:tests.BuyCurrencyTest@5315b42e]" name="methodEnd" is-config="true" duration-ms="873" started-at="2017-10-22T21:12:14Z" finished-at="2017-10-22T21:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findStore status=SUCCESS method=BuyCurrencyTest.findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@5315b42e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEnd -->
+        <test-method status="PASS" signature="intiateTest(java.lang.reflect.Method)[pri:0, instance:tests.BuyCurrencyTest@5315b42e]" name="intiateTest" is-config="true" duration-ms="4337" started-at="2017-10-22T21:12:15Z" finished-at="2017-10-22T21:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BuyCurrencyTest.findStore(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateTest -->
+        <test-method status="PASS" signature="findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@5315b42e]" name="findStore" duration-ms="15801" started-at="2017-10-22T21:12:19Z" data-provider="postCodeData" finished-at="2017-10-22T21:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DN55 1PT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+        <test-method status="PASS" signature="methodEnd(org.testng.ITestResult)[pri:0, instance:tests.BuyCurrencyTest@5315b42e]" name="methodEnd" is-config="true" duration-ms="869" started-at="2017-10-22T21:12:35Z" finished-at="2017-10-22T21:12:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findStore status=SUCCESS method=BuyCurrencyTest.findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@5315b42e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEnd -->
+      </class> <!-- tests.BuyCurrencyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

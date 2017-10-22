@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68106" started-at="2017-10-22T15:29:28Z" finished-at="2017-10-22T15:30:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68106" started-at="2017-10-22T15:29:28Z" finished-at="2017-10-22T15:30:36Z">
+      <class name="tests.BuyCurrencyTest">
+        <test-method status="PASS" signature="suiteLevelSetup()[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="suiteLevelSetup" is-config="true" duration-ms="240" started-at="2017-10-22T20:59:28Z" finished-at="2017-10-22T20:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteLevelSetup -->
+        <test-method status="PASS" signature="intiateTest(java.lang.reflect.Method)[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="intiateTest" is-config="true" duration-ms="4874" started-at="2017-10-22T20:59:28Z" finished-at="2017-10-22T20:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BuyCurrencyTest.findStore(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateTest -->
+        <test-method status="PASS" signature="findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="findStore" duration-ms="17701" started-at="2017-10-22T20:59:33Z" data-provider="countryData" finished-at="2017-10-22T20:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+        <test-method status="PASS" signature="methodEnd(org.testng.ITestResult)[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="methodEnd" is-config="true" duration-ms="1369" started-at="2017-10-22T20:59:51Z" finished-at="2017-10-22T20:59:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findStore status=SUCCESS method=BuyCurrencyTest.findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEnd -->
+        <test-method status="PASS" signature="intiateTest(java.lang.reflect.Method)[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="intiateTest" is-config="true" duration-ms="4298" started-at="2017-10-22T20:59:52Z" finished-at="2017-10-22T20:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BuyCurrencyTest.findStore(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateTest -->
+        <test-method status="PASS" signature="findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="findStore" duration-ms="16360" started-at="2017-10-22T20:59:57Z" data-provider="countryData" finished-at="2017-10-22T21:00:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+        <test-method status="PASS" signature="methodEnd(org.testng.ITestResult)[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="methodEnd" is-config="true" duration-ms="919" started-at="2017-10-22T21:00:13Z" finished-at="2017-10-22T21:00:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findStore status=SUCCESS method=BuyCurrencyTest.findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEnd -->
+        <test-method status="PASS" signature="intiateTest(java.lang.reflect.Method)[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="intiateTest" is-config="true" duration-ms="4324" started-at="2017-10-22T21:00:14Z" finished-at="2017-10-22T21:00:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.BuyCurrencyTest.findStore(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateTest -->
+        <test-method status="PASS" signature="findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="findStore" duration-ms="17323" started-at="2017-10-22T21:00:18Z" data-provider="countryData" finished-at="2017-10-22T21:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStore -->
+        <test-method status="PASS" signature="methodEnd(org.testng.ITestResult)[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="methodEnd" is-config="true" duration-ms="913" started-at="2017-10-22T21:00:36Z" finished-at="2017-10-22T21:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findStore status=SUCCESS method=BuyCurrencyTest.findStore(java.lang.String)[pri:0, instance:tests.BuyCurrencyTest@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEnd -->
+        <test-method status="PASS" signature="endSuiteLevelSetup()[pri:0, instance:tests.BuyCurrencyTest@1794d431]" name="endSuiteLevelSetup" is-config="true" duration-ms="35" started-at="2017-10-22T21:00:36Z" finished-at="2017-10-22T21:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuiteLevelSetup -->
+      </class> <!-- tests.BuyCurrencyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
